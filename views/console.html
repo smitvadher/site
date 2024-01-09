@@ -1,0 +1,12 @@
+<style>.console{background-color:#0c0c0c;bottom:0;min-height:300px;position:fixed;width:100%;z-index:9999}.console .title-bar{background-color:#1e1e1e;border-top:.1px solid var(--border-color);min-height:30px}.console .title{float:left;margin:4px 0 0 10px}.console .buttons{float:right;margin:3px 3px 0 0}.console .buttons .close{border-radius:var(--border-radius);cursor:pointer;font-size:16px;margin:5px;padding:0 7px 2px;user-select:none}.console .buttons .close:hover{background-color:var(--secondary-text-color);color:var(--secondary-bg-color)}.console .console-body{padding:10px 10px 0}.console .ascii-text{color:var(--strong-comment-color)}</style>
+<script id="con-tmpl" type="text/x-jsrender"><div class="console"><div class="title-bar"><div class="title">Console</div><div class="buttons"><span title="Close" class="close">x</span></div></div><div class="console-body"><code><div class="initial-loader"></div><div class="ascii-text"><pre>
+//     ____             ______                       __     __
+//    / __ \___ _   __ / ____/___  ____  _________  / /__  / /
+//   / / / / _ \ | / // /   / __ \/ __ \/ ___/ __ \/ / _ \/ / 
+//  / /_/ /  __/ |/ // /___/ /_/ / / / (__  ) /_/ / /  __/_/  
+// /_____/\___/|___(_)____/\____/_/ /_/____/\____/_/\___(_)   
+
+Nothing here, Yet to develop this. 
+Feel free to share your ideas and contribute to its evolution! :)
+</pre></div><div class="panel"></div></code></div></div></script>
+<script type="text/javascript">!function(n,o,c,a){const e={callback:function(){n(".console .close").on("click",(function(){n(".console").remove()}))},attachAction:function(o){n("body").append(o)},data:{}};viewManager.attachTemplateToContainer("#con-tmpl",e)}(jQuery,apiClient,codeLoader);</script>
